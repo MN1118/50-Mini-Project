@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://wallpapercrafter.com/desktop/225845-office-computer-laptop-and-desk-hd.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.clock {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 50vh;
+    height: 20vh;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1),
+        0px 0px 40px rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.clock h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.clock span {
+    position: relative;
+    top: -13%;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
